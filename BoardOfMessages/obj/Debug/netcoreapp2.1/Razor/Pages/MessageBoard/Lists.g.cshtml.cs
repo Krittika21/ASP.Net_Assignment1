@@ -62,12 +62,12 @@ using BoardOfMessages;
             WriteLiteral("<h1 style=\"text-align : center\"> <u>Message Board</u></h1>\r\n\r\n");
             EndContext();
             BeginContext(97, 402, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1425576fc30f4089b2d3dca2bbaf212c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a3fcbdb5b30d42a38c6ed6bde7bee081", async() => {
                 BeginContext(116, 79, true);
                 WriteLiteral("\r\n    <div class=\"form-group\">\r\n        <div class=\"input-group\">\r\n            ");
                 EndContext();
                 BeginContext(195, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8ea4a63f29274cf48f7c81598f2ecc4a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e9ebbd26eb6948feab78a3d461973738", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -161,7 +161,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             WriteLiteral("</td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(763, 160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9850f57911d54433b847094dfbf8a6e2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1cc4bdaa179f4db09ffe6d80091c36f0", async() => {
                 BeginContext(836, 83, true);
                 WriteLiteral("\r\n                    <i class=\"glyphicon glyphicon-zoom-in\"></i>\r\n                ");
                 EndContext();
@@ -197,7 +197,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
             WriteLiteral("\r\n\r\n                <!-- <button type=\"submit\" class=\"btn btn-info glyphicon glyphicon-thumbs-up\" asp-page=\"./Lists\" asp-route-messageId=\"Id\"></button>-->\r\n                <!--  <i class=\"glyphicon glyphicon-thumbs-up\"></i>-->\r\n\r\n                ");
             EndContext();
             BeginContext(1169, 160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ffe404a2aa804e4faf75c9cd4034e243", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5faf6642a7844c8a1124d56622e5266", async() => {
                 BeginContext(1242, 83, true);
                 WriteLiteral("\r\n                    <i class=\"glyphicon glyphicon-comment\"></i>\r\n                ");
                 EndContext();
@@ -251,7 +251,7 @@ Write(Model.Message);
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(1415, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3ffb6eecf0774282a1a2facf2a87337b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e813a28798d436daa1e010ec217edcc", async() => {
                 BeginContext(1462, 11, true);
                 WriteLiteral(" + Post New");
                 EndContext();

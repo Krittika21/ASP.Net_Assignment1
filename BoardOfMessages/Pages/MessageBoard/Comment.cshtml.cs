@@ -31,16 +31,22 @@ namespace BoardOfMessages.Pages.MessageBoard
         }
         public IActionResult OnPost()
         {
+            //    switch (forCase)
+            //    {
+            //        case "forComment":
             if (ModelState.IsValid)
-            {
-
-                listsData.Update(message);
-                listsData.Commit();
-                return RedirectToPage("./Details", new { messageId = message.Id });
-            }
-            message.Like += 1;
-            listsData.Update(message);
-            listsData.Commit();
+                    {
+                        listsData.Update(message);
+                        listsData.Commit();
+                        return RedirectToPage("./Details", new { messageId = message.Id });
+                    }
+                //    break;
+                //case "forLike":
+                    message.Like += 1;
+                    listsData.Update(message);
+                    listsData.Commit();
+            //        break;
+            //}
             return Page();
         }
     }
