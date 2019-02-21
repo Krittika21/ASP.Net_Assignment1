@@ -1,0 +1,48 @@
+﻿@page
+
+@model ListsModel
+@{
+}
+<h1 style="text-align : center"> <u>Message Board</u></h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="Search" />
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach (var msg in Model.Messages)
+    {
+        <tr method="post">
+            <td>@msg.Id</td>
+            <td>@msg.Name</td>
+            <td>@msg.Text</td>
+            <td>@msg.Like</td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Details" asp-route-messageId="@msg.Id">
+                    <i class="glyphicon glyphicon-zoom-in"></i>
+                </a>
+
+                <!-- <button type="submit" class="btn btn-info glyphicon glyphicon-thumbs-up" asp-page="./Lists" asp-route-messageId="Id"></button>-->
+                <!--  <i class="glyphicon glyphicon-thumbs-up"></i>-->
+
+                <a class="btn btn-lg" asp-page="./Comment" asp-route-messageId="@msg.Id">
+                    <i class="glyphicon glyphicon-comment"></i>
+                </a>
+
+            </td>
+        </tr>
+    }
+</table>
+<div>
+    @Model.Message
+    <a asp-page=".\AddNew" class="btn btn-success"> + Post New</a>
+</div>

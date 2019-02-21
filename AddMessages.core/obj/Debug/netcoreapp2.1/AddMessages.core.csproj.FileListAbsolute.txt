@@ -1,0 +1,9 @@
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\bin\Debug\netcoreapp2.1\AddMessages.core.deps.json
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\bin\Debug\netcoreapp2.1\AddMessages.core.dll
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\bin\Debug\netcoreapp2.1\AddMessages.core.pdb
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\obj\Debug\netcoreapp2.1\AddMessages.core.csproj.CoreCompileInputs.cache
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\obj\Debug\netcoreapp2.1\AddMessages.core.AssemblyInfoInputs.cache
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\obj\Debug\netcoreapp2.1\AddMessages.core.AssemblyInfo.cs
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\obj\Debug\netcoreapp2.1\AddMessages.core.dll
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\obj\Debug\netcoreapp2.1\AddMessages.core.pdb
+C:\Users\krittika\source\repos\BoardOfMessages\AddMessages.core\obj\Debug\netcoreapp2.1\AddMessages.core.csprojAssemblyReference.cache

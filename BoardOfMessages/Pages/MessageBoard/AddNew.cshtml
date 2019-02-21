@@ -1,0 +1,23 @@
+﻿@page "{messageId:int?}"
+@model BoardOfMessages.Pages.MessageBoard.AddNewModel
+@{
+    ViewData["Title"] = "AddNew";
+}
+
+<h2>AddNew</h2>
+<form method="post">
+    <input type="hidden" asp-for="message.Id" />
+    <div class="form-group">
+        <label asp-for="message.Name"></label>
+        <input asp-for="message.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="message.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="message.Text"></label>
+       <!-- <input asp-for="message.Text" class="form-control" />-->
+        <textarea class="form-control" rows="2" id="comment"  asp-for="message.Text"></textarea>
+        <span class="text-danger" asp-validation-for="message.Text"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+

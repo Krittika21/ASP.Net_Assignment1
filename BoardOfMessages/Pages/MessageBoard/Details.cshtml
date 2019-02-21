@@ -1,0 +1,21 @@
+﻿@page "{messageId:int}"
+@model BoardOfMessages.Pages.MessageBoard.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>@Model.messageD.Name</h2>
+<div>
+    Id: @Model.messageD.Id
+</div>
+<br />
+<div>
+    Text: @Model.messageD.Text
+</div>
+<br />
+<div>
+    Comment: @Model.messageD.comment
+</div>
+<br />
+<a asp-page="./Lists" class="btn btn-info">All Messages</a>
+

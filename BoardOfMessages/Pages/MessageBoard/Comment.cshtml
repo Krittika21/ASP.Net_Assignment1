@@ -1,0 +1,26 @@
+﻿@page "{messageId:int}"
+@model BoardOfMessages.Pages.MessageBoard.CommentModel
+@{
+    ViewData["Title"] = "Comment";
+}
+
+<h2>Comment</h2>
+<form method="post">
+    <input type="hidden" asp-for="message.Id" />
+    <input type="hidden" asp-for="message.Name" />
+    <input type="hidden" asp-for="message.Text" />
+    <input type="hidden" asp-for="message.Like" />
+    <div class="form-group">
+        <label asp-for="message.comment">Add a Comment:</label>
+        <textarea class="form-control" rows="2" id="comment" asp-for="message.comment"></textarea>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary" >Comment</button>
+        <button type="submit" class="btn btn-info" name="submit"  >
+             <i class="glyphicon glyphicon-thumbs-up"></i>
+        </button>
+    </div>
+    
+</form>
+
+
