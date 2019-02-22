@@ -28,7 +28,7 @@ namespace ListOfMessages.data
 
             if (message != null)
             {
-                message.comment = message.comment + addComment.comment;
+                addComment.comment = message.comment + addComment.comment;
             }
             return message;
         }

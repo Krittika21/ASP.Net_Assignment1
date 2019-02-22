@@ -35,16 +35,17 @@ namespace BoardOfMessages.Pages.MessageBoard
             //    {
             //        case "forComment":
             if (ModelState.IsValid)
-                    {
-                        listsData.Update(message);
-                        listsData.Commit();
-                        return RedirectToPage("./Details", new { messageId = message.Id });
-                    }
-                //    break;
-                //case "forLike":
-                    message.Like += 1;
-                    listsData.Update(message);
-                    listsData.Commit();
+            {
+                var com = listsData.Update(message);
+              
+                listsData.Commit();
+                return RedirectToPage("./Details", new { messageId = message.Id });
+            }
+            //    break;
+            //case "forLike":
+            message.Like += 1;
+            listsData.Update(message);
+            listsData.Commit();
             //        break;
             //}
             return Page();
